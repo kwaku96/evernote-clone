@@ -7,15 +7,7 @@ import * as serviceWorker from './serviceWorker';
 const firebase = require('firebase');
 require('firebase/firestore');
 
-const firebaseConfig = {
-    apiKey: "AIzaSyBYmJw8zOH2J6sHnJQUC64y8IkH9rXdqhg",
-    authDomain: "test-applications-cff37.firebaseapp.com",
-    databaseURL: "https://test-applications-cff37.firebaseio.com",
-    projectId: "test-applications-cff37",
-    storageBucket: "test-applications-cff37.appspot.com",
-    messagingSenderId: "586080380687",
-    appId: "1:586080380687:web:e26b4e2045b1a8ed"
-  };
+//add your firebase config here
 
 firebase.initializeApp(firebaseConfig);
 
